@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css'
 import ME from '../../../asset/portfolio/Basketball.png'
+import CV from "../../../asset/portfolio/JagdeepTiwanaCV.pdf"
 
 export default function About() {
   return (
@@ -11,8 +12,12 @@ export default function About() {
     <div className="about__me">
       <div className="about__me-image">
         <img src={ME} alt="About image" />
-
      </div>
+     <div className='ButtonHeader'>
+        {/* <a href='{file} download'>Download CV</a> */}
+        <a href={CV} className='btn' id='cv' download>Download CV</a> 
+      </div>
+
     </div>
 
     <div className="about__content">

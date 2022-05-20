@@ -28,14 +28,26 @@ body{
   line-height: 1.7;
  
 }
-
-section {
-  margin: 0;
-
+.mainSection{
+  margin-bottom: 5vh;
+  background-color: hotpink;
+  height: 80vh;
 }
 footer{
+  display: flex;
+  justify-content: center;
   position: fixed;
   bottom: 0;
+  height: 10vh;
+  text-align: center;
+  font-size: 2rem;
+  display: inline-block;
+  width: 100vw;
+}
+.footer__socials{
+ 
+  gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 h1, h2, h3, h4, h5 {

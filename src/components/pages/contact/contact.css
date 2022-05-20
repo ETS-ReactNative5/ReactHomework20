@@ -1,9 +1,12 @@
 .contact__container{
-    width: 58%;
-    display: grid;
+    width: 50%;
+    gap: 12%;
+    margin-top: 2rem;
+
+    /* display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-    text-align: center;
+    text-align: center; */
 
 }
 /* CSS STLYE FOR FORM BELOW */
@@ -11,7 +14,18 @@
 form{
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    left: 20rem;
+
+    /* margin-top: 2rem;
+    position: absolute;
+    left: 20rem;
+    display: flex;
+    flex-direction: column;
     gap: 1.2rem;
+    left: 50%; */
+
 
 
 }

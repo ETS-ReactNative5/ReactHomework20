@@ -48,6 +48,19 @@ h1{
     color: var(--color-light);
 }
 
+/* BUTTONS */
+
+.ButtonHeader{
+    margin-top: 2.5rem;
+    display: flex;
+    position: relative;
+    top: 5rem;
+    left: 30rem;
+    gap: 1.2rem;
+    
+}
+
+
 /* TABLET */
 @media screen and (max-width: 1024px) {
     .about__container {
