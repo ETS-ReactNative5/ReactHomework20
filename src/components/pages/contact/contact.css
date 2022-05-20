@@ -1,0 +1,42 @@
+.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    text-align: center;
+
+}
+/* CSS STLYE FOR FORM BELOW */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: #451c1f;
+    border: 2px solid #d40819;
+    resize: none;
+    color: white;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* PHONES */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        width: 90%;
+    }
+}
