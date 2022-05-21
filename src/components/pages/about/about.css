@@ -16,8 +16,8 @@ h1{
 
 .about__me{
     position: relative;
-    top: 5rem;
-    left: 15rem;
+    top: 8rem;
+    left: 10rem;
     width: 50%;
     /* height is always going to match the width*/
     aspect-ratio: 1/1;
@@ -51,11 +51,9 @@ h1{
 /* BUTTONS */
 
 .ButtonHeader{
-    margin-top: 2.5rem;
     display: flex;
     position: relative;
-    top: 5rem;
-    left: 30rem;
+    left: 45rem;
     gap: 1.2rem;
     
 }
@@ -63,19 +61,34 @@ h1{
 
 /* TABLET */
 @media screen and (max-width: 1024px) {
-    .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
+    h1{
+        bottom: 6rem;
+    
     }
+    .about__container {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .about__me-image{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+
+}
 
     .about__me{
-        width: 50%;
-        margin:  2rem auto 4rem;
-
+   
     }
 
     .about__content {
-        margin: 1rem 0 1.5rem;
+    }
+
+    .ButtonHeader{
+
+        
+        
     }
 }
 

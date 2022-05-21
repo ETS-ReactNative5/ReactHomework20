@@ -30,7 +30,6 @@ body{
 }
 .mainSection{
   margin-bottom: 5vh;
-  background-color: hotpink;
   height: 80vh;
 }
 footer{
@@ -43,12 +42,19 @@ footer{
   font-size: 2rem;
   display: inline-block;
   width: 100vw;
+  gap: 2rem;
+ 
 }
 .footer__socials{
- 
-  gap: 1rem;
-  margin-bottom: 4rem;
+ margin-bottom: 4rem;
+ display: flex;
+ gap: 2rem;
+  justify-content: center;
 }
+.footer__socials-icon{
+  color: #d40819;
+  
+  }
 
 h1, h2, h3, h4, h5 {
   font-weight: 500;

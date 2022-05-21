@@ -3,31 +3,16 @@
     gap: 12%;
     margin-top: 2rem;
 
-    /* display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-    text-align: center; */
-
 }
 /* CSS STLYE FOR FORM BELOW */
 
-form{
+.form{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     position: relative;
-    left: 20rem;
-
-    /* margin-top: 2rem;
-    position: absolute;
-    left: 20rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    left: 50%; */
-
-
-
+    left: 26rem;
+   
 }
 
 input, textarea {
@@ -39,6 +24,11 @@ input, textarea {
     resize: none;
     color: white;
 
+}
+
+.errMessage {
+    color: white;
+    background-color: hotpink;
 }
 
 @media screen and (max-width: 1024px) {
