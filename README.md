@@ -44,4 +44,4 @@ I will show snippets of both portfolio apps, both had a similar scheme
 
 github: https://github.com/jtiwana-git/ReactHomework20
 
-Deployed: 
+Deployed: https://jtiwana-git.github.io/ReactHomework20/
