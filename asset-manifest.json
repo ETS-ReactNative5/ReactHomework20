@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactHomework20/static/css/main.5699ff60.css",
-    "main.js": "/ReactHomework20/static/js/main.6cb8e830.js",
+    "main.css": "/ReactHomework20/static/css/main.d2f5c33b.css",
+    "main.js": "/ReactHomework20/static/js/main.5ee9f6d7.js",
     "static/js/787.bd30dbcb.chunk.js": "/ReactHomework20/static/js/787.bd30dbcb.chunk.js",
     "static/media/mcu-deep-diver-demo.gif": "/ReactHomework20/static/media/mcu-deep-diver-demo.a151fb52af8bc4e9246c.gif",
+    "static/media/firstPortfolio.gif": "/ReactHomework20/static/media/firstPortfolio.e7b128736b6a24fb668f.gif",
     "static/media/GoodReadMe.gif": "/ReactHomework20/static/media/GoodReadMe.73aa4287cc927261687a.gif",
     "static/media/Day-Planner.gif": "/ReactHomework20/static/media/Day-Planner.fc4a0b53aab124886a91.gif",
     "static/media/Hackathon.png": "/ReactHomework20/static/media/Hackathon.7649e52bff409d1796c2.png",
@@ -11,12 +12,12 @@
     "static/media/JagdeepTiwanaCV.pdf": "/ReactHomework20/static/media/JagdeepTiwanaCV.4bca7aa43152fd30750c.pdf",
     "static/media/Basketball.png": "/ReactHomework20/static/media/Basketball.9d1b7b50c33ff3f9bc3a.png",
     "index.html": "/ReactHomework20/index.html",
-    "main.5699ff60.css.map": "/ReactHomework20/static/css/main.5699ff60.css.map",
-    "main.6cb8e830.js.map": "/ReactHomework20/static/js/main.6cb8e830.js.map",
+    "main.d2f5c33b.css.map": "/ReactHomework20/static/css/main.d2f5c33b.css.map",
+    "main.5ee9f6d7.js.map": "/ReactHomework20/static/js/main.5ee9f6d7.js.map",
     "787.bd30dbcb.chunk.js.map": "/ReactHomework20/static/js/787.bd30dbcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5699ff60.css",
-    "static/js/main.6cb8e830.js"
+    "static/css/main.d2f5c33b.css",
+    "static/js/main.5ee9f6d7.js"
   ]
 }
