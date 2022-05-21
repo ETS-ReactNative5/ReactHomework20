@@ -11,7 +11,7 @@ export default function About() {
   <div className='container about__container'>
     <div className="about__me">
       <div className="about__me-image">
-        <img src={ME} alt="About image" />
+        <img src={ME} alt="Profile" />
      </div>
      <div className='ButtonHeader'>
         {/* <a href='{file} download'>Download CV</a> */}
