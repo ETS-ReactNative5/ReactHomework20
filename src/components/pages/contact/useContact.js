@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 
-const useContact = validate => {
+const useContact = (validate) => {
     const [values, setValues] = useState({
         name: '',
         email: '',
@@ -21,9 +21,11 @@ const handleSubmit = e => {
     e.preventDefault();
 
     setErrors(validate(values));
+
 }
 
-return {handleChange, values, handleSubmit, errors }
+
+return {handleChange, values, handleSubmit, errors}
 };
 
 export default useContact;

@@ -17,5 +17,6 @@ if(!values.message) {
     errors.message = "Message needs to be more than 12 characters"
 }
 
+
 return errors
 }

@@ -61,21 +61,21 @@ h1{
 
 /* TABLET */
 @media screen and (max-width: 1024px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
     h1{
-        bottom: 6rem;
+        
     
     }
     .about__container {
-        display: flex;
-        justify-content: center;
         
     }
     .about__me-image{
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-
+    
 }
 
     .about__me{
