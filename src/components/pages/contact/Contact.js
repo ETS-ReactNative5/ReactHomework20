@@ -13,13 +13,11 @@ const {handleChange, values, handleSubmit, errors } = useContact(validate);
       <div className='container contact__container'>
       <form className='form' onSubmit={handleSubmit}>
       
-      <input type='text' id='name' name='name' placeholder='Name' value={values.Uname} onChange={handleChange} />
-      <input type='email' id='email' name='email' placeholder='Email' value={values.email} onChange={handleChange} /> 
+      <input type='text' id='name' name='name' placeholder='Name' value={values.name} onChange={handleChange} />
+      {errors.name && <p className='errMessage'>{errors.name}</p>}
+      <input type='email' id='email' name='email' placeholder='Email' value={values.email} onChange={handleChange} /> {errors.email && <p className='errMessage'>{errors.email}</p> }
       <textarea type='text' name='message' id='message' rows='7' placeholder='Your Message' value={values.message} onChange={handleChange}></textarea>
-
-      {errors.Uname && <p className='errMessage'>{errors.Uname}</p> }
-      {errors.email && <p className='errMessage'>{errors.email}</p> }
-      {errors.message && <p className='errMessage'>{errors.message}</p> }
+       {errors.message && <p className='errMessage'>{errors.message}</p> }
       <button type='submit' className='btn btn-primary'>Send Message</button>
 
       </form>

@@ -1,8 +1,8 @@
 export default function validateinfo(values) {
 let errors = {}
 
-if(!values.Uname.trim()) {
-    errors.Uname = "Name required";
+if(!values.name.trim()) {
+    errors.name = "Name required";
 }
 
 if(!values.email) {

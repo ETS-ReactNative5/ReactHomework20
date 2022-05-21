@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 
 const useContact = validate => {
-    const {values, setValues} = useState({
-        Uname: '',
+    const [values, setValues] = useState({
+        name: '',
         email: '',
         message: ''
     });
